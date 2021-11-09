@@ -1,11 +1,11 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="zh_CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hypothesis &#8212; Sphinx Comments  documentation</title>
+    <title>Hypothesis &#8212; Sphinx Comments  文档</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -31,11 +31,12 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="Dokieli" href="dokieli.html" />
-    <link rel="prev" title="Sphinx Comments" href="index.html" />
+    <link rel="prev" title="Sphinx 评论" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -56,7 +57,7 @@
       
       
       
-      <h1 class="site-logo" id="site-title">Sphinx Comments  documentation</h1>
+      <h1 class="site-logo" id="site-title">Sphinx Comments  文档</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -66,7 +67,7 @@
     <div class="bd-toc-item active">
         <p class="caption" role="heading">
  <span class="caption-text">
-  Supported engines
+  所支持的引擎
  </span>
 </p>
 <ul class="current nav bd-sidenav">
@@ -142,14 +143,14 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/executablebooks/sphinx-comments"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/daobook/sphinx-comments"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/sphinx-comments/issues/new?title=Issue%20on%20page%20%2Fhypothesis.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/daobook/sphinx-comments/issues/new?title=Issue%20on%20page%20%2Fhypothesis.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/executablebooks/sphinx-comments/edit/master/hypothesis.md"><button
+        <a class="edit-button" href="https://github.com/daobook/sphinx-comments/edit/master/hypothesis.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -196,19 +197,19 @@
               <div>
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="hypothesis">
-<h1>Hypothesis<a class="headerlink" href="#hypothesis" title="Permalink to this headline">¶</a></h1>
-<script async="async" src="https://hypothes.is/embed.js"></script><p>Hypothesis is a centralized web services that allows you to comment and annotate arbitrary web pages across the web.</p>
-<p>Hypothesis is activated on this page. You can see the web overlay by clicking on the <code class="docutils literal notranslate"><span class="pre">&lt;</span></code> button in the upper-right corner of this page.</p>
+<h1>Hypothesis<a class="headerlink" href="#hypothesis" title="永久链接至标题">¶</a></h1>
+<script async="async" src="https://hypothes.is/embed.js"></script><p>Hypothesis 是一个中心化的网络服务，允许你在网络上对任意的网页进行评论和注释。</p>
+<p>Hypothesis 在这个页面上被激活。你可以通过点击本页右上角的 <code class="docutils literal notranslate"><span class="pre">&lt;</span></code> 按钮看到网络覆盖。</p>
 <div class="section" id="activate-hypothes-is">
-<h2>Activate <code class="docutils literal notranslate"><span class="pre">hypothes.is</span></code><a class="headerlink" href="#activate-hypothes-is" title="Permalink to this headline">¶</a></h2>
-<p>You can activate <code class="docutils literal notranslate"><span class="pre">hypothes.is</span></code> by adding the following to your <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file:</p>
+<h2>Activate <code class="docutils literal notranslate"><span class="pre">hypothes.is</span></code><a class="headerlink" href="#activate-hypothes-is" title="永久链接至标题">¶</a></h2>
+<p>你可以通过在你的 <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> 文件中添加以下内容来激活 <code class="docutils literal notranslate"><span class="pre">hypothes.is</span></code> ：</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">comments_config</span> <span class="o">=</span> <span class="p">{</span>
    <span class="s2">&quot;hypothesis&quot;</span><span class="p">:</span> <span class="kc">True</span>
 <span class="p">}</span>
 </pre></div>
 </div>
-<p>This will add a <a class="reference external" href="https://web.hypothes.is/">hypothes.is overlay</a> to your documentation. This extension simply activates the hypothes.is javascript bundle on your Sphinx site. This will cause the hypothes.is overlay to be shown, allowing your readers to log-in and comment on your documentation if they have questions.</p>
-<p>When you build your documentation, you will see the hypothes.is overlay to the right of your screen.</p>
+<p>这将为你的文档添加一个 [hypothes.is overlay]（https://web.hypothes.is/）。这个扩展只是在你的 Sphinx 网站上激活了 hypothes.is 的 javascript 包。这将导致显示 hypothes.is 覆盖，让你的读者在有问题时可以登录并评论你的文档。</p>
+<p>当你建立你的文档时，你会看到屏幕右侧的 hypothes.is 叠加。</p>
 </div>
 </div>
 
@@ -223,18 +224,18 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="index.html" title="previous page">
+        <a class="left-prev" href="index.html" title="上一页 页">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
-                <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Sphinx Comments</p>
+                <p class="prevnext-label">上一页</p>
+                <p class="prevnext-title">Sphinx 评论</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="dokieli.html" title="next page">
+        <a class="right-next" href="dokieli.html" title="下一页 页">
             <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
+                <p class="prevnext-label">下一页</p>
                 <p class="prevnext-title">Dokieli</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>

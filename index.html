@@ -1,11 +1,11 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="zh_CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sphinx Comments &#8212; Sphinx Comments  documentation</title>
+    <title>Sphinx 评论 &#8212; Sphinx Comments  文档</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -31,9 +31,10 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="Hypothesis" href="hypothesis.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -55,7 +56,7 @@
       
       
       
-      <h1 class="site-logo" id="site-title">Sphinx Comments  documentation</h1>
+      <h1 class="site-logo" id="site-title">Sphinx Comments  文档</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -65,7 +66,7 @@
     <div class="bd-toc-item active">
         <p class="caption" role="heading">
  <span class="caption-text">
-  Supported engines
+  所支持的引擎
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -141,14 +142,14 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/executablebooks/sphinx-comments"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/daobook/sphinx-comments"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/sphinx-comments/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/daobook/sphinx-comments/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/executablebooks/sphinx-comments/edit/master/index.md"><button
+        <a class="edit-button" href="https://github.com/daobook/sphinx-comments/edit/master/index.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -175,12 +176,12 @@
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#installation">
-   Installation
+   安装
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#configuration">
-   Configuration
+   配置
   </a>
  </li>
 </ul>
@@ -195,23 +196,22 @@
               <div>
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="sphinx-comments">
-<h1>Sphinx Comments<a class="headerlink" href="#sphinx-comments" title="Permalink to this headline">¶</a></h1>
-<p>Add comments and annotation functionality to your Sphinx website.</p>
-<p>Currently, these commenting engines are supported:</p>
+<h1>Sphinx 评论<a class="headerlink" href="#sphinx-comments" title="永久链接至标题">¶</a></h1>
+<p>为你的 Sphinx 网站添加评论和注释功能。</p>
+<p>目前，支持这些评论引擎：</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://hypothes.is/">Hypothes.is</a> provides a web overlay that allows you to annotate and comment collaboratively.</p></li>
-<li><p><a class="reference external" href="https://utteranc.es/">utteranc.es</a> is a web commenting system that uses GitHub Issues to store and manage comments.</p></li>
-<li><p><a class="reference external" href="https://dokie.li/"><code class="docutils literal notranslate"><span class="pre">dokie.li</span></code></a> is an open source commenting and annotation overlay built on web standards.</p></li>
+<li><p><a class="reference external" href="https://hypothes.is/">Hypothes.is</a> 提供了一个网络覆盖，使你能够注释和协作评论。</p></li>
+<li><p><a class="reference external" href="https://utteranc.es/">utteranc.es</a> 是一个网络评论系统，使用 GitHub issue 来存储和管理评论。</p></li>
+<li><p><a class="reference external" href="https://dokie.li/"><code class="docutils literal notranslate"><span class="pre">dokie.li</span></code></a> 是一个建立在网络标准上的开源评论和注释覆盖。</p></li>
 </ul>
-<p>For examples of each service, as well as instructions for how to activate it,
-click on the links to the left.</p>
+<p>关于每项服务的例子，以及如何激活它的说明，请点击左边的链接。</p>
 <div class="section" id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
-<p>Clone and install the github reposiory</p>
+<h2>安装<a class="headerlink" href="#installation" title="永久链接至标题">¶</a></h2>
+<p>克隆并安装 github 资源库</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install sphinx-comments
 </pre></div>
 </div>
-<p>Next, activate the extension by adding it to your <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file:</p>
+<p>接下来，通过将其添加到你的 <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> 文件中来激活这个扩展。</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">...</span>
 <span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
    <span class="s2">&quot;sphinx_comments&quot;</span>
@@ -220,23 +220,21 @@ click on the links to the left.</p>
 </div>
 </div>
 <div class="section" id="configuration">
-<h2>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
-<p>To configure <code class="docutils literal notranslate"><span class="pre">sphinx-comments</span></code> (and to choose the engine you’d like to use),
-you should configure the <code class="docutils literal notranslate"><span class="pre">comments_config</span></code> dictionary in <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>. Instructions
-for doing so can be found in the page for each of the supported engines below.</p>
+<h2>配置<a class="headerlink" href="#configuration" title="永久链接至标题">¶</a></h2>
+<p>要配置 <code class="docutils literal notranslate"><span class="pre">sphinx-comments</span></code> （并选择你想使用的引擎），你应该在 <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> 中配置 <code class="docutils literal notranslate"><span class="pre">comments_config</span></code> 字典。这样做的说明可以在下面每个支持的引擎的页面中找到。</p>
 <div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Supported engines</span></p>
+<p class="caption" role="heading"><span class="caption-text">所支持的引擎</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="hypothesis.html">Hypothesis</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="hypothesis.html#activate-hypothes-is">Activate <code class="docutils literal notranslate"><span class="pre">hypothes.is</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="dokieli.html">Dokieli</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="dokieli.html#activate-dokie-li">Activate <code class="docutils literal notranslate"><span class="pre">dokie.li</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dokieli.html#activate-dokie-li">激活 <code class="docutils literal notranslate"><span class="pre">dokie.li</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="utterances.html">Utterances</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="utterances.html#activate-utteranc-es">Activate <code class="docutils literal notranslate"><span class="pre">utteranc.es</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="utterances.html#activate-utteranc-es">激活 <code class="docutils literal notranslate"><span class="pre">utteranc.es</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -255,9 +253,9 @@ for doing so can be found in the page for each of the supported engines below.</
 <div class='prev-next-bottom'>
     
      <div id="next">
-        <a class="right-next" href="hypothesis.html" title="next page">
+        <a class="right-next" href="hypothesis.html" title="下一页 页">
             <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
+                <p class="prevnext-label">下一页</p>
                 <p class="prevnext-title">Hypothesis</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
