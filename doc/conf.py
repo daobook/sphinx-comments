@@ -66,7 +66,7 @@ master_doc = "index"
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "zh_CN"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -84,7 +84,7 @@ pygments_style = "sphinx"
 #
 html_theme = "sphinx_book_theme"
 html_theme_options = {
-    "repository_url": "https://github.com/executablebooks/sphinx-comments",
+    "repository_url": "https://github.com/daobook/sphinx-comments",
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
@@ -181,3 +181,6 @@ texinfo_documents = [
         "Miscellaneous",
     ),
 ]
+
+locale_dirs = ['../locales/']  # path is example but recommended.
+gettext_compact = False  # optional.

@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Executable Books Project
+# This file is distributed under the same license as the Sphinx Comments
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Comments \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-09 21:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../hypothesis.md:1
+msgid "Hypothesis"
+msgstr ""
+
+#: ../../hypothesis.md:7
+msgid ""
+"Hypothesis is a centralized web services that allows you to comment and "
+"annotate arbitrary web pages across the web."
+msgstr ""
+"Hypothesis 是一个中心化的网络服务，允许你在网络上对任意的网页进行评论和注释。"
+
+#: ../../hypothesis.md:9
+msgid ""
+"Hypothesis is activated on this page. You can see the web overlay by "
+"clicking on the `<` button in the upper-right corner of this page."
+msgstr ""
+"Hypothesis 在这个页面上被激活。"
+"你可以通过点击本页右上角的 `<` 按钮看到网络覆盖。"
+
+#: ../../hypothesis.md:11
+msgid "Activate `hypothes.is`"
+msgstr ""
+
+#: ../../hypothesis.md:13
+msgid ""
+"You can activate `hypothes.is` by adding the following to your `conf.py` "
+"file:"
+msgstr ""
+"你可以通过在你的 `conf.py` 文件中添加以下内容来激活 `hypothes.is` ："
+
+#: ../../hypothesis.md:21
+msgid ""
+"This will add a [hypothes.is overlay](https://web.hypothes.is/) to your "
+"documentation. This extension simply activates the hypothes.is javascript"
+" bundle on your Sphinx site. This will cause the hypothes.is overlay to "
+"be shown, allowing your readers to log-in and comment on your "
+"documentation if they have questions."
+msgstr ""
+"这将为你的文档添加一个 [hypothes.is overlay]（https://web.hypothes.is/）。"
+"这个扩展只是在你的 Sphinx 网站上激活了 hypothes.is 的 javascript 包。"
+"这将导致显示 hypothes.is 覆盖，让你的读者在有问题时可以登录并评论你的文档。"
+
+#: ../../hypothesis.md:23
+msgid ""
+"When you build your documentation, you will see the hypothes.is overlay "
+"to the right of your screen."
+msgstr ""
+"当你建立你的文档时，你会看到屏幕右侧的 hypothes.is 叠加。"
+

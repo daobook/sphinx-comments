@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Executable Books Project
+# This file is distributed under the same license as the Sphinx Comments
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Comments \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-09 21:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../utterances.md:1
+msgid "Utterances"
+msgstr ""
+
+#: ../../utterances.md:3
+msgid ""
+"Utterances is a commenting engine built on top of GitHub issues. It "
+"embeds a comment box in your page that users (with a GitHub account) can "
+"use to ask questions. These become comments in a GitHub issue in a "
+"repository of your choice."
+msgstr ""
+"Utterances 是一个建立在 GitHub issue 之上的评论引擎。"
+"它在你的页面上嵌入了一个评论框，用户（拥有 GitHub 账户）可以用它来提出问题。"
+"这些问题会成为你选择的仓库中 GitHub issue 的评论"。
+
+#: ../../utterances.md:5
+msgid ""
+"Utterances is activated on this page. You can see the comment box at the "
+"bottom of the page's content. Click the \"log in\" button and you'll be "
+"able to post comments!"
+msgstr ""
+"Utterances 在这个页面上被激活。"
+"你可以在页面内容的底部看到评论框。点击 “登录” 按钮，你就可以发表评论了！"
+
+#: ../../utterances.md:7
+msgid "Activate `utteranc.es`"
+msgstr "激活 `utteranc.es`"
+
+#: ../../utterances.md:9
+msgid ""
+"You can activate `utteranc.es` by adding the following to your `conf.py` "
+"file:"
+msgstr ""
+"你可以通过在你的 `conf.py` 文件中添加以下内容来激活 `utteranc.es` ："
+
+#: ../../utterances.md:1
+msgid ""
+"You can pass optional extra configuration for utterances. See [the "
+"utterances documentation for your options](https://utteranc.es/#theme)."
+msgstr ""
+"你可以为 utterances 传递可选的额外配置。"
+"参见 [关于你的选项的 utterances 文档](https://utteranc.es/#theme)。"
+
+#: ../../utterances.md:25
+msgid ""
+"Next, [follow the `utteranc.es` configuration "
+"instructions](https://utteranc.es/#configuration)."
+msgstr ""
+"接下来，[按照 `utteranc.es` 的配置说明](https://utteranc.es/#configuration)。"
+
+#: ../../utterances.md:27
+msgid ""
+"When you build your documentation, pages will now have a comment box at "
+"the bottom. If readers log in via GitHub they will be able to post "
+"comments that will then map onto issues in your GitHub repository."
+msgstr ""
+"当你建立你的文档时，页面现在会在底部有一个评论框。"
+"如果读者通过 GitHub 登录，他们将能够发表评论，然后映射到你的 GitHub 存储库中的 issue 上。"
