@@ -41,11 +41,11 @@ release = ""
 extensions = ["sphinx_comments", "myst_parser"]
 
 comments_config = {
-    # "hypothesis": True,
-    # "utterances": {
-    #     "repo": "executablebooks/sphinx-comments",
-    # },
-    # "dokieli": True
+    "hypothesis": True,
+    "utterances": {
+         "repo": "daobook/sphinx-comments",
+    },
+    "dokieli": True
 }
 
 
