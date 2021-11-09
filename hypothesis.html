@@ -24,6 +24,7 @@
     
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link media="all" rel="stylesheet" type="text/css" href="https://dokie.li/media/css/dokieli.css" />
     
   <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
@@ -31,6 +32,42 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script async="async" kind="dokieli" src="https://dokie.li/scripts/dokieli.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "daobook/sphinx-comments");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
     <script src="_static/translations.js"></script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <link rel="index" title="索引" href="genindex.html" />
@@ -208,7 +245,7 @@
 <span class="p">}</span>
 </pre></div>
 </div>
-<p>这将为你的文档添加一个 [hypothes.is overlay]（https://web.hypothes.is/）。这个扩展只是在你的 Sphinx 网站上激活了 hypothes.is 的 javascript 包。这将导致显示 hypothes.is 覆盖，让你的读者在有问题时可以登录并评论你的文档。</p>
+<p>这将为你的文档添加一个 <a class="reference external" href="https://web.hypothes.is/">hypothes.is overlay</a>。这个扩展只是在你的 Sphinx 网站上激活了 hypothes.is 的 javascript 包。这将导致显示 hypothes.is 覆盖，让你的读者在有问题时可以登录并评论你的文档。</p>
 <p>当你建立你的文档时，你会看到屏幕右侧的 hypothes.is 叠加。</p>
 </div>
 </div>
