@@ -56,7 +56,7 @@ msgid ""
 "be shown, allowing your readers to log-in and comment on your "
 "documentation if they have questions."
 msgstr ""
-"这将为你的文档添加一个 [hypothes.is overlay]（https://web.hypothes.is/）。"
+"这将为你的文档添加一个 [hypothes.is overlay](https://web.hypothes.is/)。"
 "这个扩展只是在你的 Sphinx 网站上激活了 hypothes.is 的 javascript 包。"
 "这将导致显示 hypothes.is 覆盖，让你的读者在有问题时可以登录并评论你的文档。"
 
